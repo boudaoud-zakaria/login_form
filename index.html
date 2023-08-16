@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="background"></div>
+    <div><img class="img2" src="photo2.jpg" alt="" srcset=""></div>
+    <div><img class="img4" src="photo4.png" alt="" srcset=""></div>
+    <div class="block2"></div>
+    <div class="block3"></div>
+    <div class="link">
+        <a href="https://www.instagram.com/newton_club_officiel/?igshid=MzRlODBiNWFlZA%3D%3D">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="">
+            <i class="fab fa-facebook"></i>
+        </a>    
+        <a href="tel:0781310370">
+            <i class="fas fa-phone"></i>
+        </a>
+        <a href="https://www.google.com/maps/place/Ben+Talha,+Baraki/@36.6505484,3.076044,15z/data=!4m6!3m5!1s0x128fab5d86505ac3:0x460cee9c3e6d2f2c!8m2!3d36.6484296!4d3.0822357!16s%2Fg%2F1tzhz9pl?entry=ttu">
+            <i class="fas fa-map-marker-alt"></i>
+        </a>
+    </div>
+    <article>A training course in programming , especially in WEB development,<br> so that the course contains the basics of web programming <br> with many applications and daily follow-up with applied projects .
+    </article>
+    <form class="form" id="form" action="send_email.php" method="post">
+        <p class="title" id="title">Register </p>
+        <p class="message"> Sign up now and get a place on the course </p>
+            <div class="flex">
+            <label>
+                <input required="" placeholder="" type="text" class="input" id="firstname">
+                <span>Firstname</span>
+            </label>
+    
+            <label>
+                <input required="" placeholder="" type="text" class="input" id="lastname">
+                <span>Lastname</span>
+            </label>
+        </div>  
+                
+        <label>
+            <input required="" placeholder="" type="email" class="input" id="email">
+            <span>Email</span>
+        </label> 
+            
+        <label>
+            <input required="" placeholder="" type="tel" class="input" id="tel">
+            <span>Tel Number</span>
+        </label>
+        <button class="submit" id="send">Submit</button>
+    </form>
+    
+</body>
+</html>
