@@ -9,13 +9,14 @@ body{
 
 .background{
     background-color: white;
-    width: 36%;
+    width: 28%;
     height: 35%;
     position: fixed;
     bottom: 0%;
-    right: 12%;
+    right: 20%;
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
+    border-radius: 68px;
 }
 
 .img2{
@@ -32,7 +33,7 @@ body{
     background-color: white;
     position: fixed;
     top: 28%;
-    right: 26%;
+    right: 20%;
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
 }
