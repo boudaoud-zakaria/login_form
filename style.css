@@ -2,7 +2,7 @@ body{
     background-image: url("photo1.jpg");
     background-repeat: no-repeat;
     background-position: left top;
-    background-size: 98% auto;
+    background-size: 80% auto;
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
 }
@@ -13,7 +13,7 @@ body{
     height: 35%;
     position: fixed;
     bottom: 0%;
-    right: 0%;
+    right: 12%;
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
 }
@@ -27,23 +27,23 @@ body{
 }
 
 .block2{
-    height: 340px;
-    width: 10%;
+    height: 260px;
+    width: 16%;
     background-color: white;
     position: fixed;
     top: 28%;
-    right: 1%;
+    right: 26%;
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
 }
 
 .block3{
     height: 100px;
-    width: 40%;
+    width: 35%;
     background-color: white;
     position: fixed;
     top: 2%;
-    right: 20%;
+    right: 27%;
     z-index: -1;
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
@@ -1180,7 +1180,7 @@ article{
     .block3{
         opacity: 1;
         /* background: linear-gradient(#EDEDED,#E4E4E4); */
-        background-color:#E4E4E4;
+        background-color: #E4E4E4;
         width: 180px;
         height: 340px;
         top: 54%;
