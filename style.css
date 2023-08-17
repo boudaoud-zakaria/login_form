@@ -7,45 +7,10 @@ body{
     user-select: none; /* Standard syntax */
 }
 
-.background{
-    background-color: white;
-    width: 28%;
-    height: 35%;
-    position: fixed;
-    bottom: 0%;
-    right: 20%;
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
-    border-radius: 68px;
-}
-
 .img2{
     height: 170px;
     position: fixed;
     right: 67px;
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
-}
-
-.block2{
-    height: 260px;
-    width: 26%;
-    background-color: white;
-    position: fixed;
-    top: 28%;
-    right: 20%;
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
-}
-
-.block3{
-    height: 100px;
-    width: 35%;
-    background-color: white;
-    position: fixed;
-    top: 2%;
-    right: 27%;
-    z-index: -1;
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
 }
