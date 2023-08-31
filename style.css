@@ -46,6 +46,7 @@ form .label {
     padding: 7px;
     padding-left: 32px;
     padding-right: 32px;
+    left: 8px;
 }
 
 input[type='file']{
@@ -57,6 +58,24 @@ input[type='file']::before ,form .label:hover{
     border: 1.3px dashed green;
 }
 
+.email{
+    text-decoration: none;
+    color:  rgba(88, 87, 87, 0.822);
+    font-size: 15px;
+    margin-top: 70px;
+    padding: 7px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 6px;
+    border: 1.3px dashed rgba(88, 87, 87, 0.822);
+    position:relative;
+    right: -13px;
+}
+
+.email:hover{
+    color: green;
+    border: 1.3px dashed green;
+}
 
 .title {
     font-size: 28px;
