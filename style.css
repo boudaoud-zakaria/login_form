@@ -609,14 +609,14 @@ article{
         right: 0px;
     }
     form .label {
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
         font-size: 11px;
     }
     .email{
         font-size: 11px;
-        padding-left: 25px;
-        padding-right: 24px;
+        padding-left:20px;
+        padding-right: 20px;
     }
     
     .link{
