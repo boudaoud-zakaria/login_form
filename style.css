@@ -2,7 +2,7 @@ body{
     background-image: url("photo1.jpg");
     background-repeat: no-repeat;
     background-position: left top;
-    background-size: 80% auto;
+    background-size: 150vh auto;
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
 }
