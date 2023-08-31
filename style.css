@@ -25,9 +25,38 @@ body{
     padding: 0px;
     border-radius: 20px;
     position: fixed;
-    bottom: 90px;
+    bottom: 50px;
     right: 10%;
 }
+
+.file{
+    margin:10px 0px;
+}
+
+form .label {
+    height: 100%;
+    border-radius: 6px;
+    border: 1.3px dashed rgba(88, 87, 87, 0.822);
+    /* position: relative;
+    left: 0px; */
+    z-index: 1;
+    color:  rgba(88, 87, 87, 0.822);
+    font-size: 15px;
+    margin-top: 70px;
+    padding: 7px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+input[type='file']{
+    display: none;
+}
+
+input[type='file']::before ,form .label:hover{
+    color: green;
+    border: 1.3px dashed green;
+}
+
 
 .title {
     font-size: 28px;
@@ -39,7 +68,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: end;
-    padding-left: 30px;
+    padding-left: 10px;
 }
 
 .title::before,.title::after {
