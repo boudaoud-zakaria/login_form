@@ -60,7 +60,7 @@
             required=""
             />
             <label class="label" for="file" id="lab">Upload File (HTML)</label>
-            <a class="email" href="mailto:zakiiii906@gmail.com" aria-required="true">Upload File 2 ( .html )</a>
+            <a class="email" href="mailto:zakiiii906@gmail.com" aria-required="true" onclick="change()" id="href"   required="">Upload File 2 ( .html )</a>
         </div>
         </div>
         <button class="submit" id="send" >Submit</button>
@@ -71,15 +71,21 @@
 
         fileInput.addEventListener('change', handleFileChange);
 
+        function change(){
+            console.log("rahi wsletyakh ya zaki");
+            document.getElementById('href').style.color ='green';
+            document.getElementById('href').textContent ='____ visied____';
+        }
+
         function handleFileChange() {
             if (fileInput.files.length > 0) {
                 fileInput.classList.remove('not-selected');
                 fileInput.classList.add('selected');
-                console.log('zaki');
                 labelInput.style.color ='green';
                 labelInput.textContent = fileInput.files[0].name;
             } 
         }
+
     </script>
 </body>
 </html>
